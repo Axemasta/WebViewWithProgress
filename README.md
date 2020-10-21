@@ -13,7 +13,7 @@ You can elaborate on the coded example here to build a fully cross platform web 
 
 | iOS                                        | Android                                            |
 | ------------------------------------------ | -------------------------------------------------- |
-| ![Running on iOS](assets\progress-ios.png) | ![Running on Android](assets\progress-android.png) |
+| ![Running on iOS](assets/progress-ios.png) | ![Running on Android](assets/progress-android.png) |
 
 
 
@@ -24,7 +24,7 @@ I have created 2 controls
 | Control              | Purpose                                                      |
 | -------------------- | ------------------------------------------------------------ |
 | `ProgressWebBrowser` | To provide an example of custom control that uses the `ProgressWebView` and displays a `Xamarin.Forms.ProgressBar` that updates progress accordingly |
-| `ProgressWebView`    | Add the progress property to a `WebView`, have custom renderers that are able to hook into natvie platform API's to get the value and raise a notification. |
+| `ProgressWebView`    | Add the progress property to a `WebView`, have custom renderers that are able to hook into native platform API's to get the value and raise a notification. |
 
 
 
@@ -36,7 +36,7 @@ I have created 2 controls
 
 This uses an observer to obeserve the `WKWebView` event **estimatedProgress**.
 
-![Gif of the example app running on iOS](assets\progress-ios.gif)
+![Gif of the example app running on iOS](assets/progress-ios.gif)
 
 
 
@@ -44,7 +44,7 @@ This uses an observer to obeserve the `WKWebView` event **estimatedProgress**.
 
 This uses a `FormsWebChromeClient` to hook into the `OnProgressChanged` event.
 
-![Gif of the example app running on Android](assets\progress-android.gif)
+![Gif of the example app running on Android](assets/progress-android.gif)
 
 
 
