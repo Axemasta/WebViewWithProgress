@@ -22,6 +22,7 @@ namespace WebViewWithProgress.Controls
 
         public ProgressWebView()
         {
+            //FUTURE: You would want to expose the browser source on this control
             Source = "https://www.google.co.uk";
         }
 

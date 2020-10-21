@@ -10,25 +10,8 @@ namespace WebViewWithProgress.Controls
             Content = BuildView();
         }
 
-        private void OnValuePropertyChanged()
-        {
-
-        }
-
         public View BuildView()
         {
-            //<Grid>
-            //    <Grid.RowDefinitions>
-            //        <RowDefinition Height="Auto"/>
-            //        <RowDefinition Height="*"/>
-            //    </Grid.RowDefinitions>
-            //    <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0" Grid.Row="0">
-            //        <Label Text="WebView Progress Test" HorizontalTextAlignment="Center" TextColor="White" FontSize="36" />
-            //    </Frame>
-
-            //    <WebView Source="https://www.google.co.uk" Grid.Row="1"/>
-            //</Grid>
-
             var stack = new StackLayout();
             stack.Children.Add(new Label()
             {
@@ -83,7 +66,6 @@ namespace WebViewWithProgress.Controls
 
         private ProgressWebView WebView { get; } = new ProgressWebView()
         {
-            //Source = "https://www.google.co.uk"
         };
     }
 }

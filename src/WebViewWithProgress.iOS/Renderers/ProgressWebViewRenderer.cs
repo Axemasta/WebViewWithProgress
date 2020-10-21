@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 using Foundation;
-using UIKit;
 using WebViewWithProgress.Controls;
-using WebViewWithProgress.iOS.Delegates;
 using WebViewWithProgress.iOS.Renderers;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
